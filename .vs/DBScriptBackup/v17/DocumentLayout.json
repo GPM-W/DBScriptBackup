@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\repo\\DBScriptBackup\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|c:\\repo\\dbscriptbackup\\dbscriptbackup\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|solutionrelative:dbscriptbackup\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|c:\\repo\\dbscriptbackup\\dbscriptbackup\\sqldatabasescripter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|solutionrelative:dbscriptbackup\\sqldatabasescripter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|c:\\repo\\dbscriptbackup\\dbscriptbackup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|solutionrelative:dbscriptbackup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|c:\\repo\\dbscriptbackup\\dbscriptbackup\\executionorderscripter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|solutionrelative:dbscriptbackup\\executionorderscripter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|c:\\repo\\dbscriptbackup\\dbscriptbackup\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|solutionrelative:dbscriptbackup\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|c:\\repo\\dbscriptbackup\\dbscriptbackup\\backupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|solutionrelative:dbscriptbackup\\backupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|c:\\repo\\dbscriptbackup\\dbscriptbackup\\configs\\simracefan.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|solutionrelative:dbscriptbackup\\configs\\simracefan.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|c:\\repo\\dbscriptbackup\\dbscriptbackup\\configs\\cs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{49254E22-0D77-44F4-9AE9-E393D2E28D44}|DBScriptBackup\\DBScriptBackup.csproj|solutionrelative:dbscriptbackup\\configs\\cs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseConfig.cs",
+              "DocumentMoniker": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\DatabaseConfig.cs",
+              "RelativeDocumentMoniker": "DBScriptBackup\\DatabaseConfig.cs",
+              "ToolTip": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\DatabaseConfig.cs",
+              "RelativeToolTip": "DBScriptBackup\\DatabaseConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T22:34:12.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CS.json",
+              "DocumentMoniker": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\Configs\\CS.json",
+              "RelativeDocumentMoniker": "DBScriptBackup\\Configs\\CS.json",
+              "ToolTip": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\Configs\\CS.json",
+              "RelativeToolTip": "DBScriptBackup\\Configs\\CS.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T21:35:49.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SimRaceFan.json",
+              "DocumentMoniker": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\Configs\\SimRaceFan.json",
+              "RelativeDocumentMoniker": "DBScriptBackup\\Configs\\SimRaceFan.json",
+              "ToolTip": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\Configs\\SimRaceFan.json",
+              "RelativeToolTip": "DBScriptBackup\\Configs\\SimRaceFan.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T21:34:17.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BackupConfiguration.cs",
+              "DocumentMoniker": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\BackupConfiguration.cs",
+              "RelativeDocumentMoniker": "DBScriptBackup\\BackupConfiguration.cs",
+              "ToolTip": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\BackupConfiguration.cs",
+              "RelativeToolTip": "DBScriptBackup\\BackupConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T21:26:57.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Util.cs",
+              "DocumentMoniker": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\Util.cs",
+              "RelativeDocumentMoniker": "DBScriptBackup\\Util.cs",
+              "ToolTip": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\Util.cs",
+              "RelativeToolTip": "DBScriptBackup\\Util.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T21:51:06.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExecutionOrderScripter.cs",
+              "DocumentMoniker": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\ExecutionOrderScripter.cs",
+              "RelativeDocumentMoniker": "DBScriptBackup\\ExecutionOrderScripter.cs",
+              "ToolTip": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\ExecutionOrderScripter.cs",
+              "RelativeToolTip": "DBScriptBackup\\ExecutionOrderScripter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T21:48:13.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SqlDatabaseScripter.cs",
+              "DocumentMoniker": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\SqlDatabaseScripter.cs",
+              "RelativeDocumentMoniker": "DBScriptBackup\\SqlDatabaseScripter.cs",
+              "ToolTip": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\SqlDatabaseScripter.cs",
+              "RelativeToolTip": "DBScriptBackup\\SqlDatabaseScripter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T21:37:26.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\Program.cs",
+              "RelativeDocumentMoniker": "DBScriptBackup\\Program.cs",
+              "ToolTip": "C:\\repo\\DBScriptBackup\\DBScriptBackup\\Program.cs",
+              "RelativeToolTip": "DBScriptBackup\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T21:13:35.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

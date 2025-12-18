@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DBScriptBackup": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\gregw\\source\\repos\\DBScriptBackup\\DBScriptBackup\\Configs\\SimRaceFan.json"
+    }
+  }
+}
