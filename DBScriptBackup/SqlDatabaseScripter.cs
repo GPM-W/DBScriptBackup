@@ -1,5 +1,6 @@
 ﻿using DBScriptBackup;
 using Microsoft.SqlServer.Management.Smo;
+using System.Text;
 
 namespace DBScriptBackup
 {
@@ -138,26 +139,26 @@ namespace DBScriptBackup
         /// <summary>
         /// Scripts DROP statements for an object
         /// </summary>
+        /// <summary>
+        /// Scripts DROP statements for an object
+        /// </summary>
         private static void ScriptObjectDrop(Server server, SqlSmoObject scriptObject, string filePath)
         {
             try
             {
                 Scripter dropScripter = new Scripter(server);
-                dropScripter.Options.AppendToFile = true;
                 dropScripter.Options.AllowSystemObjects = false;
                 dropScripter.Options.ClusteredIndexes = true;
                 dropScripter.Options.DriAll = true;
                 dropScripter.Options.ScriptDrops = true;
                 dropScripter.Options.IncludeHeaders = false;
-                dropScripter.Options.ToFileOnly = true;
+                dropScripter.Options.ToFileOnly = false;
                 dropScripter.Options.Indexes = true;
                 dropScripter.Options.WithDependencies = false;
-                dropScripter.Options.FileName = filePath;
 
+                using var writer = new StreamWriter(filePath, append: false, encoding: new UTF8Encoding(encoderShouldEmitUTF8Identifier: false));
                 foreach (string script in dropScripter.EnumScript(new SqlSmoObject[] { scriptObject }))
-                {
-                    Console.WriteLine(script);
-                }
+                    writer.WriteLine(script);
             }
             catch (Exception ex)
             {
@@ -173,29 +174,26 @@ namespace DBScriptBackup
             try
             {
                 Scripter createScripter = new Scripter(server);
-                createScripter.Options.AppendToFile = true;
                 createScripter.Options.AllowSystemObjects = false;
                 createScripter.Options.ClusteredIndexes = true;
                 createScripter.Options.DriAll = true;
                 createScripter.Options.ScriptDrops = false;
                 createScripter.Options.IncludeHeaders = false;
-                createScripter.Options.ToFileOnly = true;
+                createScripter.Options.ToFileOnly = false;
                 createScripter.Options.Indexes = true;
                 createScripter.Options.Permissions = true;
                 createScripter.Options.WithDependencies = false;
-                createScripter.Options.FileName = filePath;
 
+                using var writer = new StreamWriter(filePath, append: true, encoding: new UTF8Encoding(encoderShouldEmitUTF8Identifier: false));
                 foreach (string script in createScripter.EnumScript(new SqlSmoObject[] { scriptObject }))
-                {
-                    Console.WriteLine(script);
-                }
+                    writer.WriteLine(script);
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error scripting CREATE for {scriptObject}: {ex.Message}");
             }
         }
-
+        
         /// <summary>
         /// Scripts entire database(s) with optional data
         /// </summary>
