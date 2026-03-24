@@ -1,0 +1,6 @@
+/.vs
+/.vs
+*.vsidx
+/DBScriptBackup/bin/Debug
+/DBScriptBackup/obj
+DBScriptBackup/obj/Debug/net8.0/DBScriptBackup.csproj.FileListAbsolute.txt
