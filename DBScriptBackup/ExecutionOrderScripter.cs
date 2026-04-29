@@ -211,12 +211,12 @@ namespace DBScriptBackup
                         {
                             string depId = null;
 
-                            if (refType?.Contains("TABLE") == true)
+                            if (refType?.Contains("FUNCTION") == true)
+                                depId = $"FUNCTION:{refSchema}.{refObject}";
+                            else if (refType?.Contains("TABLE") == true)
                                 depId = $"TABLE:{refSchema}.{refObject}";
                             else if (refType?.Contains("VIEW") == true)
                                 depId = $"VIEW:{refSchema}.{refObject}";
-                            else if (refType?.Contains("FUNCTION") == true)
-                                depId = $"FUNCTION:{refSchema}.{refObject}";
                             else if (refType?.Contains("PROCEDURE") == true)
                                 depId = $"PROCEDURE:{refSchema}.{refObject}";
 
